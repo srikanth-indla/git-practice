@@ -1,0 +1,12 @@
+name: Python CI/CD
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - feature/*
+  pull_request:
+    branches:
+      - main
+      - develop
